@@ -1,0 +1,25 @@
+{
+  "date_mise_a_jour": "2025-10-23",
+  "offres": {
+    "Tarif_Reglemente": {
+      "type": "HPHC",
+      "puissance_kva": 9
+      "tarifs": {
+        "HP": 0.2276,
+        "HC": 0.1680,
+        "BASE": 0.2062
+      },
+      "abonnement_mensuel": 12.21
+    },
+    "Zen_Online": {
+      "type": "HPHC",
+      "puissance_kva": 9
+      "tarifs": {
+        "HP": 0.1977,
+        "HC": 0.1559,
+        "BASE": 0.2062
+      },
+      "abonnement_mensuel": 12.21
+    },
+  }
+}
