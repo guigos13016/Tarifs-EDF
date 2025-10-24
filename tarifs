@@ -1,25 +1,56 @@
 {
-  "date_mise_a_jour": "2025-10-23",
+  "date_mise_a_jour": "2025-10-24",
   "offres": {
-    "Tarif_Reglemente": {
-      "type": "HPHC",
-      "puissance_kva": 9
-      "tarifs": {
-        "HP": 0.2276,
-        "HC": 0.1680,
-        "BASE": 0.2062
+    "EDF_TarifBleu": {
+      "Base": {
+        "type": "monotarif",
+        "tarifs": {
+          "UNIQUE": 0.1952
+        },
+        "puissances": {
+          "6kVA": { "abonnement_mensuel": 15.47 },
+          "9kVA": { "abonnement_mensuel": 19.39 },
+          "12kVA": { "abonnement_mensuel": 23.32 }
+        }
       },
-      "abonnement_mensuel": 12.21
+      "HPHC": {
+        "type": "bitarif",
+        "tarifs": {
+          "HP": 0.2081,
+          "HC": 0.1635
+        },
+        "puissances": {
+          "6kVA": { "abonnement_mensuel": 15.74 },
+          "9kVA": { "abonnement_mensuel": 19.81 },
+          "12kVA": { "abonnement_mensuel": 23.76 }
+        }
+      }
     },
-    "Zen_Online": {
-      "type": "HPHC",
-      "puissance_kva": 9
-      "tarifs": {
-        "HP": 0.1977,
-        "HC": 0.1559,
-        "BASE": 0.2062
+    "EDF_ZenOnline": {
+      "Base": {
+        "type": "monotarif",
+        "tarifs": {
+          "UNIQUE": 0.1856
+        },
+        "puissances": {
+          "6kVA": { "abonnement_mensuel": 15.47 },
+          "9kVA": { "abonnement_mensuel": 19.39 },
+          "12kVA": { "abonnement_mensuel": 23.32 }
+        }
       },
-      "abonnement_mensuel": 12.21
-    },
+      "HPHC": {
+        "type": "bitarif",
+        "tarifs": {
+          "HP": 0.1977,
+          "HC": 0.1559
+        },
+        "puissances": {
+          "6kVA": { "abonnement_mensuel": 15.74 },
+          "9kVA": { "abonnement_mensuel": 19.81 },
+          "12kVA": { "abonnement_mensuel": 23.76 }
+        }
+      }
+    }
   }
 }
+
