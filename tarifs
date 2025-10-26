@@ -1,8 +1,8 @@
 {
   "date_mise_a_jour": "2025-10-24",
   "offres": {
-    "EDF_TarifBleu_bis": {
-      "label": "bTarif Bleu EDF",
+    "EDF_TarifBleu": {
+      "label": "Tarif Bleu EDF",
       "Base": {
         "type": "monotarif",
         "tarifs": {
