@@ -1,7 +1,7 @@
 {
   "date_mise_a_jour": "2025-10-24",
   "offres": {
-    "EDF_TarifBleu": {
+    "TarifBleu": {
       "Base": {
         "type": "monotarif",
         "tarifs": {
@@ -26,7 +26,7 @@
         }
       }
     },
-    "EDF_ZenOnline": {
+    "ZenOnline": {
       "Base": {
         "type": "monotarif",
         "tarifs": {
