@@ -1,5 +1,5 @@
 {
-  "date_mise_a_jour": "2025-10-27",
+  "date_mise_a_jour": "2025-10-28",
   "offres": {
     "EDF_TarifBleu": {
       "label": "Tarif Bleu EDF",
@@ -22,7 +22,7 @@
         },
         "puissances": {
           "6": { "abonnement_mensuel": 16.74 },
-          "9": { "abonnement_mensuel": 19.81 },
+          "9": { "abonnement_mensuel": 19.82 },
           "12": { "abonnement_mensuel": 23.76 }
         }
       }
