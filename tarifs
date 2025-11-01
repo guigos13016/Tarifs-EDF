@@ -1,5 +1,5 @@
 {
-  "date_mise_a_jour": "2025-10-29",
+  "date_mise_a_jour": "2025-11-01",
   "offres": {
     "EDF_TarifBleu": {
       "label": "Tarif Bleu",
@@ -32,7 +32,7 @@
       "Base": {
         "type": "monotarif",
         "tarifs": {
-          "UNIQUE": 0.1856
+          "UNIQUE": 0.1857
         },
         "puissances": {
           "6": { "abonnement_mensuel": 15.47 },
