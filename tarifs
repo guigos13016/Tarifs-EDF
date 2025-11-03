@@ -17,8 +17,8 @@
       "HPHC": {
         "type": "bitarif",
         "tarifs": {
-          "HP": 0.2081,
-          "HC": 0.1635
+          "HP": 0.2115,
+          "HC": 0.1951
         },
         "puissances": {
           "6": { "abonnement_mensuel": 16.74 },
