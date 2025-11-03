@@ -17,7 +17,7 @@
       "HPHC": {
         "type": "bitarif",
         "tarifs": {
-          "HP": 0.2115,
+          "HP": 0.3005,
           "HC": 0.1951
         },
         "puissances": {
