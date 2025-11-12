@@ -1,24 +1,24 @@
 {
-  "date_mise_a_jour": "2025-11-03",
+  "date_mise_a_jour": "2025-11-12",
   "offres": {
     "EDF_TarifBleu": {
       "label": "Tarif Bleu",
       "Base": {
         "type": "monotarif",
         "tarifs": {
-          "UNIQUE": 0.1853
+          "UNIQUE": 0.1952
         },
         "puissances": {
           "6": { "abonnement_mensuel": 15.47 },
-          "9": { "abonnement_mensuel": 19.40 },
+          "9": { "abonnement_mensuel": 19.39 },
           "12": { "abonnement_mensuel": 23.32 }
         }
       },
       "HPHC": {
         "type": "bitarif",
         "tarifs": {
-          "HP": 0.3005,
-          "HC": 0.1951
+          "HP": 0.2081,
+          "HC": 0.1635
         },
         "puissances": {
           "6": { "abonnement_mensuel": 16.74 },
@@ -32,12 +32,12 @@
       "Base": {
         "type": "monotarif",
         "tarifs": {
-          "UNIQUE": 0.2057
+          "UNIQUE": 0.1856
         },
         "puissances": {
           "6": { "abonnement_mensuel": 15.47 },
           "9": { "abonnement_mensuel": 19.39 },
-          "12": { "abonnement_mensuel": 25.32 }
+          "12": { "abonnement_mensuel": 23.32 }
         }
       },
       "HPHC": {
